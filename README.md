@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://your-live-site-url.com](https://timetrackingdashboardm.netlify.app/)
+- Live Site URL: https://timetrackingdashboardm.netlify.app/
 
 ### Built with
 
