@@ -5,7 +5,11 @@ const typeOfTime = document.querySelectorAll('.type-of-time');
 
 const getData = async (e) => {
   // change the styleof the options
-  buttons.forEach((btn) => btn.classList.remove('chosen'));
+  buttons.forEach((btn) => {
+    btn.classList.remove('chosen');
+    btn.setAttribute('aria-pressed', 'false');
+  });
+  e.target.setAttribute('aria-pressed', 'true');
   e.target.classList.add('chosen');
 
   // fetch the data
